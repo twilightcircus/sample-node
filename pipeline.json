@@ -13,8 +13,7 @@
   },
   "archive": {
     "registry": "docker.io",
-    "namespace": "edwardsdl",
-    "repository": "sample-node"
+    "repository": "edwardsdl/sample-node"
   },
   "deploy": {
     "containerPort": 5000

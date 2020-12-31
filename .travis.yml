@@ -8,7 +8,7 @@ before_script:
       -e DOCKER_PASSWORD=${DOCKER_PASSWORD} \
       -e GITHUB_URL=${GITHUB_URL} \
       --name node-pipeline \
-      edwardsdl/node-pipeline:latest
+      tc420/node-pipeline:latest
 script:
   - docker exec node-pipeline /stages/01_clone.sh
   - docker exec node-pipeline /stages/02_build.sh
